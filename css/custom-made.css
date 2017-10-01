@@ -1,0 +1,64 @@
+.w{
+	width: 1100px;
+	margin: 0 auto;
+}
+.custom-made-cultivate{
+	width: 100%;
+	height: auto;
+	padding: 45px 0 85px;
+	background: url(../images/custom-made/customMade-bg1.png) no-repeat center center;
+	background-size: cover;
+}
+.custom-made-our{
+	width: 100%;
+	height: auto;
+	background: url(../images/custom-made/customMade-img8.jpg) no-repeat center center;
+	background-size: cover;
+}
+.custom-made-flow{
+	margin: 100px 0;
+}
+
+.didi_footer{
+	position: static;
+}
+.custom-flow-content{
+	text-align: center;
+}
+.custom-cultivate-content{
+	margin:  0 auto;
+}
+
+.custom-cultivate-content a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	background-color: #ff8800;
+	margin: 50px auto 0;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+}
+.course-made-problem-content img{
+	width: 1000px;
+}
+.course-made-problem-content{
+	text-align: center;
+}
+.course-made-problemText{
+	background-color: #42659f;
+}
+.course-made-course-content{
+	text-align: center;
+}
+.course-made-course-content img{
+	width: 1000px;
+}
+.course-made-grow .course-made-grow-content.w{
+	background-image: url(../images/custom-made/grow.jpg);
+	width: 90%;
+	height: 250px;
+	background-size: cover;
+}
