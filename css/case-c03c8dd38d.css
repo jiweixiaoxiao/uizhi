@@ -1,0 +1,420 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400
+}
+
+body {
+    background: url(../images/uzhiTeacher/bg-6e913ad48b.png)
+}
+
+.header-x {
+    top: 0
+}
+
+.banner {
+    padding-top: 50px;
+    position: relative;
+    width: 100%
+}
+
+.case-list li,
+.container {
+    padding-top: 40px
+}
+
+.banner .banner-pic {
+    background-image: url(../images/uzhiTeacher/teacher-banner.jpg);
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/banner-88c514e282.jpg', sizingMethod='scale');
+    background-position: center;
+    height: 400px
+}
+
+.banner .slogin {
+    position: absolute;
+    left: 5%;
+    top: 120px
+}
+
+.banner .slogin h2 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 60px
+}
+
+.banner .slogin h3 {
+    color: #e3e7eb;
+    font-size: 28px;
+    line-height: 60px
+}
+
+.banner .slogin .btn {
+    background: #017ed2;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    width: 146px
+}
+
+.container h2 {
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center
+}
+
+.container h2 span {
+    color: #F29402
+}
+
+.case-list {
+    margin: 0 auto;
+    width: 1000px
+}
+
+.case-list li {
+    float: left;
+    width: 500px
+}
+
+.case-list li .box {
+    background: #fff;
+    border: 1px solid #c9c9c9;
+    height: 405px;
+    padding: 35px 0;
+    width: 484px
+}
+
+.case-list li .box img {
+    display: block;
+    margin: 0 auto;
+    width: 100%
+}
+.case-list ul{
+	overflow:hidden;
+	padding:0; 
+}
+
+.case-list li .box h3 {
+    font-size: 22px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-align: left
+}
+
+.case-list li .box .more {
+    color: #999;
+    font-size: 40px;
+    padding-top: 70px;
+    text-align: center
+}
+
+.case-list li .box h3 span {
+    border-left: 4px solid #017ed2;
+    display: block;
+    float: left;
+    height: 30px;
+    margin: 5px 26px 0 0;
+    width: 0
+}
+
+.case-list li .box p {
+    color: #666;
+    font-size: 14px;
+    padding: 0 30px
+}
+
+.introduce {
+    background: url(../images/uzhiTeacher/introduce_bg-95e212f43b.png) repeat-x;
+    height: 225px;
+    margin-top: 80px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%
+}
+
+.introduce h2 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 60px
+}
+
+.introduce h3 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 36px;
+    margin: 20px auto 0;
+    width: 95%
+}
+
+.advantage {
+    margin-top: 70px;
+    padding-bottom: 150px
+}
+
+.advantage h2 {
+    font-size: 40px;
+    line-height: 60px
+}
+
+.advantage ul {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    margin: 30px auto 0;
+    overflow: hidden;
+    width: 1000px
+}
+
+.advantage li {
+    float: left;
+    padding: 100px 0 120px;
+    text-align: center;
+    width: 33%
+}
+
+.advantage li h3 {
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: 20px
+}
+
+.advantage li h4 {
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 10px
+}
+.reg-btn {
+    background: #F9BF00;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 54px;
+    line-height: 54px;
+    margin: 60px auto 0;
+    text-align: center;
+    width: 180px
+}
+
+.footer {
+    width: 100%
+}
+
+.footer .question {
+    display: none
+}
+
+.footer .copyright {
+    background: #2c2c2c;
+    color: #6d6d6d;
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10%;
+    width: 80%
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background: #fff
+    }
+    .banner .banner-pic {
+        background-image: url(../images/banner-m-392f95cfa6.jpg);
+        background-position: center bottom;
+        height: 325px
+    }
+    .banner .slogin {
+        position: static
+    }
+    .banner .slogin h2 {
+        color: #333;
+        font-size: 30px;
+        line-height: 42px;
+        text-align: center
+    }
+    .banner .slogin h3 {
+        color: #017ed2;
+        font-size: 14px;
+        line-height: 42px;
+        text-align: center
+    }
+    .banner .slogin h3 i {
+        border-bottom: 1px solid #017ed2;
+        display: inline-block;
+        height: 0;
+        margin: 0 10px;
+        overflow: hidden;
+        vertical-align: middle;
+        width: 15px
+    }
+    .advantage .reg-btn,
+    .case-list .n,
+    .container .title {
+        display: none
+    }
+    .banner .slogin .btn {
+        margin: 0 auto
+    }
+    .container {
+        background: #f2f2f2;
+        margin-top: 40px;
+        padding: 0
+    }
+    .case-list {
+        margin: 0 auto;
+        width: 94%
+    }
+    .case-list li {
+        width: 100%;
+        padding-top: 15px
+    }
+    .case-list li .box {
+        margin: 0 auto;
+        height: 364px;
+        padding: 4% 0;
+        width: 98%
+    }
+    .case-list li .box img {
+        width: 92%
+    }
+    .case-list li .box h3 {
+        font-size: 18px
+    }
+    .case-list li .box h3 span {
+        height: 20px;
+        margin: 10px 15px 0 0
+    }
+    .case-list li .box p {
+        font-size: 12px;
+        padding: 0 20px
+    }
+    .introduce {
+        background: #017ed2;
+        height: 160px;
+        margin-top: 15px;
+        padding-top: 30px
+    }
+    .introduce h2 {
+        font-size: 30px
+    }
+    .introduce h3 {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 10px;
+        width: 90%
+    }
+    .advantage {
+        margin-top: 50px;
+        padding-bottom: 0
+    }
+    .advantage h2 {
+        font-size: 30px
+    }
+    .advantage ul {
+        margin-top: 20px;
+        width: 88%;
+        padding-bottom: 70px
+    }
+    .advantage li h4 {
+        font-size: 14px
+    }
+    .advantage li h3 {
+        font-size: 24px
+    }
+    .footer .copyright,
+    .footer .question {
+        height: 50px;
+        font-size: 14px;
+        color: #999
+    }
+    .advantage li {
+        padding: 60px 0 0;
+        width: 100%
+    }
+    .footer {
+        background: 0 0
+    }
+    .footer .question {
+        background: #f2f2f2;
+        display: block;
+        line-height: 24px;
+        padding: 20px 0;
+        text-align: center
+    }
+    .footer .question p {
+        margin-bottom: 5px
+    }
+    .footer .copyright {
+        line-height: 50px;
+        background: #F3F3F3
+    }
+    .footer .copyright span {
+        display: none
+    }
+}
+
+/* teaches */
+.teachers-content{
+    width: 1100px;
+    margin: 0 auto 50px;
+    overflow: hidden;
+}
+.teachers-content li.teachers-content-lst{
+    float: left;
+    width: 252px;
+    margin-right: 30px;
+    background-color: #fff;
+    position: relative;
+    margin-top: 100px;
+    height: 500px;
+}
+.teachers-content li.teachers-content-lst:nth-child(4n){
+    margin-right: 0;
+}
+.teachers-content li.teachers-content-lst p{
+    background: url(../images/uzhiTeacher/teacher.png);
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -48px;
+}
+.teachers-content li.teachers-content-lst h3{
+    text-align: center;
+}
+.teachers-content li.teachers-content-lst p{
+    width: 96px;
+    height: 96px;
+}
+.teachers-content li.teachers-content-lst ul{
+    width: 192px;
+    height: 380px;
+    padding: 0 20px 0 40px;
+    margin-top: 70px;
+    font-family: lucida grande,lucida sans unicode,lucida,helvetica,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+.teachers-content li.teachers-content-lst ul li{
+        list-style: disc;
+}
+.teachers-content li.teachers-content-lst h3{
+    margin-top: 70px;
+}
+.teachers-content li.teachers-content-lst:nth-child(2) p{
+    background-position: -96px 0;
+}
+.teachers-content li.teachers-content-lst:nth-child(3) p{
+    background-position: -192px 0;
+}
+.teachers-content li.teachers-content-lst:nth-child(4) p{
+    background-position: -288px 0;
+}
+.teachers-content li.teachers-content-lst:nth-child(5) p{
+    background-position: -385px 0;
+}
